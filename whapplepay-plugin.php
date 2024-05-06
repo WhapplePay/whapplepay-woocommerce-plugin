@@ -4,8 +4,8 @@ Plugin Name: WhapplePay Integrator for WooCommerce
 Plugin URI: https://whapplepay.com
 Description: Integrate WhapplePay gateway with WooCommerce for secure payments and enhanced customer trust.
 Version: 1.0
-Author: Ngwang Shalom Tamnjong
-Author URI: https://whapplepay.com
+Author: Wg Organisation
+Author URI: https://wgorganisation/ngwangshalom.com
 License: GPL v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: whapplepay-plugin
