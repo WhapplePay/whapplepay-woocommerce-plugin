@@ -80,7 +80,7 @@ function add_whapplepay_gateway($gateways) {
             	
                 public function get_icon(){
                     $icon_html =
-                        '<img src="'.plugins_url('assets/image/logo.png', __FILE__).'" alt="Zitopay" style="float:right;" />';
+                        '<img src="'.plugins_url('assets/image/logo.png', __FILE__).'" alt="WhapplePay" style="float:right;" />';
                     return apply_filters('woocommerce_gateway_icon', $icon_html, $this->id);
                 }
 		
@@ -180,7 +180,7 @@ function add_whapplepay_gateway($gateways) {
         function update_payment_status($order_id, $new_status) {
             $order = wc_get_order($order_id);
             if (!$order) {
-                return; // Order not found, handle error if needed
+                return; 
             }
         
             // Update order status
